@@ -1,0 +1,110 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "Sprite2",
+					"sid": 414411373934152,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 629731799839199,
+					"parameters": {
+						"audio-file": "dogbark",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 842086247757376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-moved",
+					"objectClass": "Sprite2",
+					"sid": 433907536959448,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite3",
+					"sid": 729941583252020,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto",
+					"sid": 347952734014005,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 400753480958905
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 328360373405723,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite7",
+					"sid": 898548508743958,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 690747255993158,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 831857320097853,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 886982162222323,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 157883237065212
+		}
+	],
+	"sid": 119912594813921
+}
