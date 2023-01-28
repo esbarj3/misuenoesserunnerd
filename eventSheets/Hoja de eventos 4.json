@@ -1,0 +1,57 @@
+{
+	"name": "Hoja de eventos 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 768032208382713
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 958606647731946,
+					"parameters": {
+						"layout": "menu"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 392090066452481
+				}
+			],
+			"sid": 636969348059399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 940255070598705
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 757768473097291,
+					"parameters": {
+						"audio-file": "lyra4-cut_042-057",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 958513313143957
+		}
+	],
+	"sid": 894872661642429
+}

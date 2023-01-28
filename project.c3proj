@@ -15,6 +15,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -56,7 +63,40 @@
 			"Sprite7",
 			"Sprite8",
 			"Sprite9",
-			"Texto2"
+			"Texto2",
+			"Sprite10",
+			"Texto3",
+			"Texto4",
+			"Botón",
+			"Botón2",
+			"Sprite11",
+			"Texto5",
+			"Botón3",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Sprite19",
+			"Texto6",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Texto7",
+			"Sprite23",
+			"Texto8",
+			"Botón4",
+			"Botón5",
+			"Botón6",
+			"Sprite24",
+			"Sprite25",
+			"Texto9",
+			"Botón7",
+			"Sprite26",
+			"Sprite27",
+			"Sprite28"
 		],
 		"subfolders": []
 	},
@@ -68,15 +108,23 @@
 	},
 	"layouts": {
 		"items": [
+			"menu",
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"NANAI DE LA CHINA",
+			"Escena 3",
+			"Escena 4"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5",
+			"Hoja de eventos 6"
 		],
 		"subfolders": []
 	},
@@ -99,7 +147,32 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "RGA-GT - Being Cool Doesn`t Make Me Fool.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 968380718969691,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "lyra4-cut_042-057.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 547190891521703,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "puppydogs playful.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 862880640040387,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

@@ -1,0 +1,70 @@
+{
+	"name": "Hoja de eventos 6",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 465017009853109
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 125671185223442
+				}
+			],
+			"sid": 118758395919419
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 986008726878020
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 735852308960817,
+					"parameters": {
+						"audio-file": "puppydogs playful",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 920843989881236
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón7",
+					"sid": 556743504316513
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 584338330789823,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 956009228996795
+		}
+	],
+	"sid": 490851935759822
+}
