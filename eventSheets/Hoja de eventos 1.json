@@ -5,6 +5,24 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 562575093313305
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 908510337034375
+				}
+			],
+			"sid": 892415654547064
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-jump",
 					"objectClass": "Sprite2",
 					"sid": 414411373934152,
@@ -104,6 +122,31 @@
 				}
 			],
 			"sid": 157883237065212
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 372108509912406
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 544689802997407,
+					"parameters": {
+						"audio-file": "RGA-GT - Being Cool Doesn`t Make Me Fool",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 990638040449682
 		}
 	],
 	"sid": 119912594813921

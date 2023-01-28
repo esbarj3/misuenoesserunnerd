@@ -1,5 +1,129 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "Sprite13",
+					"sid": 501767615739820,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 223123673961911,
+					"parameters": {
+						"audio-file": "dogbark",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 492085222166819
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 277290171265818
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 757479481211259,
+					"parameters": {
+						"audio-file": "RGA-GT - Being Cool Doesn`t Make Me Fool",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 732280180109495
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 759786430949869,
+					"parameters": {
+						"object": "Sprite18"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite18",
+					"sid": 822681283526467,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto6",
+					"sid": 719464004115848,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 135769374964433,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 642042006031826,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 553353623871422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 920007809385013,
+					"parameters": {
+						"object": "Sprite15"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite15",
+					"sid": 340264833968553,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 325523633956972
+		}
+	],
 	"sid": 378228730586867
 }

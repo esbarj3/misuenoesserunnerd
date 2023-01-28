@@ -1,0 +1,48 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 851146921281129
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 245695506380490,
+					"parameters": {
+						"layout": "NANAI DE LA CHINA"
+					}
+				}
+			],
+			"sid": 276740394719099
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 447816476534660
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 403113078768636,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 838580185757382
+		}
+	],
+	"sid": 937676165108823
+}
